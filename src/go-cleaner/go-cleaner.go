@@ -18,7 +18,7 @@ var (
 )
 
 func usage() {
-  fmt.Fprintf(os.Stderr, "\nUsage: %s [flags]\n\n", "go-cleaner2")
+  fmt.Fprintf(os.Stderr, "\nUsage: %s [flags]\n\n", "go-cleaner")
   flag.PrintDefaults()
   os.Exit(0)
 }
