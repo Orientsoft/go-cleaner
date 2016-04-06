@@ -23,7 +23,7 @@ Since golang uses UTF-8 strings internally, input CSV should be converted to **U
 
 Config File
 -----------
-TOML, Tom's Obvious, Minimal Language, is a de facto standard as GO config file.  
+TOML, Tom's Obvious, Minimal Language, is a de facto standard as GO config file description language.  
 go-cleaner uses github.com/BurntSushi/toml library to parse its config file into internal structs.  
 Refer to [TOML v0.2.0 spec](https://github.com/toml-lang/toml/blob/master/versions/en/toml-v0.2.0.md) for detailed info about this language.  
 For go-cleaner, you should define column position to clean and corresponding cleansing type. For example:  
