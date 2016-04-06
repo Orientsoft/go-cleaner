@@ -10,7 +10,7 @@ How to Deploy
 
 Parameter
 ---------
-Usage: go-cleaner2 [flags]  
+Usage: go-cleaner [flags]  
   
   -config="./default.conf": Config file path  
 		Default: ./default.conf  
